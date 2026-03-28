@@ -1,0 +1,61 @@
+# Node & Frontend
+node_modules/
+package-lock.json
+npm-debug.log*
+frontend/dist/
+frontend/.vite/
+frontend/node_modules/
+
+# Large Data Files
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.csv
+
+# Large Model Files
+backend/saved_autoencoder.pkl
+backend/*.pkl
+backend/*.pt
+backend/*.h5
+backend/models/
+backend/checkpoints/
+
+# Database
+*.db
+*.sqlite3
+
+# Python
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
